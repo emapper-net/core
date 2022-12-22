@@ -1,0 +1,2 @@
+# core
+EMapper.net core
