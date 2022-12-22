@@ -1,0 +1,8 @@
+﻿{
+  "profiles": {
+    "Debug Code Generation": {
+      "commandName": "DebugRoslynComponent",
+      "targetProject": "..\\emapper.net.core.unit.tests\\emapper.net.core.unit.tests.csproj"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+	<Company>EMapper.Net Project</Company>
+	<Authors>EMapper.Net Project</Authors>
+	<Product>EMapper.Net</Product>
+	<Description>EMapper.Net Core Library</Description>
+	<Copyright>Copyright © EMapper.Net Project 2022</Copyright>
+	<PackageProjectUrl>https://github.com/emapper-net/core</PackageProjectUrl>
+	<PackageId>$(AssemblyName)</PackageId>
+	<RootNamespace>emapper.net</RootNamespace>
+
+	<PublishRepositoryUrl>true</PublishRepositoryUrl>
+	<EmbedUntrackedSources>true</EmbedUntrackedSources>
+	<IncludeSymbols>true</IncludeSymbols>
+	<SymbolPackageFormat>snupkg</SymbolPackageFormat>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Microsoft.Extensions.DependencyInjection.Abstractions" />
+    <None Remove="rules\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="7.0.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="rules\" />
+  </ItemGroup>
+</Project>

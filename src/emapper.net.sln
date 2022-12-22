@@ -1,0 +1,36 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32602.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "emapper.net.core", "emapper.net.core\emapper.net.core.csproj", "{037BA4AE-067B-4EC1-BFEE-4C5E46B46DC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "emapper.net.core.unit.tests", "emapper.net.core.unit.tests\emapper.net.core.unit.tests.csproj", "{2A2753A1-9E01-46B4-B58E-0C8282C3A751}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "emapper.net.core.runtime", "emapper.net.core.runtime\emapper.net.core.runtime.csproj", "{8C396C3B-0524-4DC6-B995-85755899C058}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "unit tests", "unit tests", "{556F425E-E73C-4DDB-8F00-50F59A9932EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{037BA4AE-067B-4EC1-BFEE-4C5E46B46DC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{037BA4AE-067B-4EC1-BFEE-4C5E46B46DC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{037BA4AE-067B-4EC1-BFEE-4C5E46B46DC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{037BA4AE-067B-4EC1-BFEE-4C5E46B46DC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A2753A1-9E01-46B4-B58E-0C8282C3A751}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A2753A1-9E01-46B4-B58E-0C8282C3A751}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A2753A1-9E01-46B4-B58E-0C8282C3A751}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A2753A1-9E01-46B4-B58E-0C8282C3A751}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C396C3B-0524-4DC6-B995-85755899C058}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C396C3B-0524-4DC6-B995-85755899C058}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C396C3B-0524-4DC6-B995-85755899C058}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C396C3B-0524-4DC6-B995-85755899C058}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2A2753A1-9E01-46B4-B58E-0C8282C3A751} = {556F425E-E73C-4DDB-8F00-50F59A9932EF}
+	EndGlobalSection
+EndGlobal
