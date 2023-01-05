@@ -72,7 +72,7 @@ public class CodeGenerator : ISourceGenerator
     {
         var mappers = FindMappers(context);
     }
-
+    
     public void Initialize(GeneratorInitializationContext context)
     {
         throw new NotImplementedException();
