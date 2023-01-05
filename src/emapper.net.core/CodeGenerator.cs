@@ -11,7 +11,7 @@ using Microsoft.CodeAnalysis.Text;
 namespace emapper.net;
 
 [Generator]
-public class CodeGenerator
+public class CodeGenerator : ISourceGenerator
 {
     private const string MAPPER_ATTRIBUTE_NAME = "emapper.net.MapperAttribute";
 
@@ -71,5 +71,10 @@ public class CodeGenerator
     public void Execute(GeneratorExecutionContext context)
     {
         var mappers = FindMappers(context);
+    }
+
+    public void Initialize(GeneratorInitializationContext context)
+    {
+        throw new NotImplementedException();
     }
 }
